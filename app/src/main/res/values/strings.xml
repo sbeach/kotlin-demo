@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Kotlin Demo</string>
+    <string name="hint_character_name">Character name&#8230;</string>
+    <string name="hint_character_default_score">8</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Character not saved because name is blank.</string>
+</resources>
