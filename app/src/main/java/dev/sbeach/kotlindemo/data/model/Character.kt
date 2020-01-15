@@ -5,7 +5,7 @@ import androidx.room.Ignore
 import androidx.room.PrimaryKey
 
 @Entity
-class Character(
+data class Character(
     var name: String,
     var strength: Ability = Ability(Ability.Type.STR),
     var dexterity: Ability = Ability(Ability.Type.DEX),

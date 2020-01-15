@@ -1,6 +1,6 @@
 package dev.sbeach.kotlindemo.data.model
 
-class Ability(var type: Type, var score: Int = 8) {
+data class Ability(var type: Type, var score: Int = 8) {
 
     var modifier: Int = 0
 
